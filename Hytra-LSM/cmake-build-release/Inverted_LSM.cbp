@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Inverted_LSM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_filemapper">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_filemapper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_filemapper"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_filemapper/fast">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_filemapper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_filemapper/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_file_write">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_file_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_file_write"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_file_write/fast">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_file_write" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_file_write/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_filemapper_put_and_get">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_filemapper_put_and_get" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_filemapper_put_and_get"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_filemapper_put_and_get/fast">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_filemapper_put_and_get" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_filemapper_put_and_get/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_insert_operation">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_insert_operation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_insert_operation"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_insert_operation/fast">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/test_insert_operation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 test_insert_operation/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Inverted_LSM">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/Inverted_LSM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 Inverted_LSM"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Inverted_LSM/fast">
+				<Option output="/home/ria/Hytra-LSM/cmake-build-release/Inverted_LSM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ria/Hytra-LSM/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 Inverted_LSM/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/ria/Hytra-LSM/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/ria/Hytra-LSM/DiskLevel.cpp">
+			<Option target="test_file_write"/>
+			<Option target="test_filemapper_put_and_get"/>
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/DiskLevel.h">
+			<Option target="test_file_write"/>
+			<Option target="test_filemapper_put_and_get"/>
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/DiskRUN.cpp">
+			<Option target="test_file_write"/>
+			<Option target="test_filemapper_put_and_get"/>
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/DiskRUN.h">
+			<Option target="test_file_write"/>
+			<Option target="test_filemapper_put_and_get"/>
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/FileMapper.cpp">
+			<Option target="test_filemapper"/>
+			<Option target="test_file_write"/>
+			<Option target="test_filemapper_put_and_get"/>
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/FileMapper.h">
+			<Option target="test_filemapper"/>
+			<Option target="test_file_write"/>
+			<Option target="test_filemapper_put_and_get"/>
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/LSM.cpp">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/LSM.h">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/LSMUtils.cpp">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/MemLevel.cpp">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/MemLevel.h">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/MemRUN.cpp">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/MemRUN.h">
+			<Option target="test_insert_operation"/>
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/Server.cpp">
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/Server.h">
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/main.cpp">
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/test_file_write.cpp">
+			<Option target="test_file_write"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/test_filemapper.cpp">
+			<Option target="test_filemapper"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/test_filemapper_put_and_get.cpp">
+			<Option target="test_filemapper_put_and_get"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/test_insert_operation.cpp">
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/home/ria/Hytra-LSM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

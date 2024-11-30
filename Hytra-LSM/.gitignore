@@ -1,0 +1,68 @@
+# build output
+cmake-build-debug/
+CMakeFiles/
+.idea/
+.cmake/
+
+# binary files
+Inverted_LSM
+test_insert_operation
+
+# index
+index_file/
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+*.swp
+*.ninja
+.ninja*
+libskia.*
+example
+example.png
+include
+skia_compile_arguments.txt
+skia_link_arguments.txt

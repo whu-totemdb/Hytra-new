@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Inverted_LSM"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Inverted_LSM">
+				<Option output="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Inverted_LSM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 Inverted_LSM"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Inverted_LSM/fast">
+				<Option output="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Inverted_LSM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 Inverted_LSM/fast"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_insert_operation">
+				<Option output="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/test_insert_operation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 test_insert_operation"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test_insert_operation/fast">
+				<Option output="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/test_insert_operation" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 test_insert_operation/fast"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/haoxingxiao/repos/Hytra/Inverted_LSM"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/opt/homebrew/bin/gmake -f &quot;/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/DiskLevel.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/DiskLevel.h">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/DiskRUN.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/DiskRUN.h">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/FileMapper.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/FileMapper.h">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/LSM.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/LSM.h">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/LSMUtils.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/MemLevel.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/MemLevel.h">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/MemRUN.cpp">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/MemRUN.h">
+			<Option target="Inverted_LSM"/>
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Server.cpp">
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/Server.h">
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/main.cpp">
+			<Option target="Inverted_LSM"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/test_insert_operation.cpp">
+			<Option target="test_insert_operation"/>
+		</Unit>
+		<Unit filename="/Users/haoxingxiao/repos/Hytra/Inverted_LSM/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
