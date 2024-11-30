@@ -116,3 +116,16 @@ The historical kNN query is used to retrieve the k highest ranked trajectories b
 1. Support other advanced trajectory queries.
 2. Develop a distributed version of Hytra for extremely large volumes of trajectory data.
 
+## Citation
+
+If you use our code for research work, please cite our paper as below:
+```
+@inproceedings{wen2024towards,
+  title={Towards Unified Spatio-Temporal Index for Hybrid Trajectory Search},
+  author={Tianyao Wen, Shengkun Zhu, Yiming Wang and Sheng Wang},
+  booktitle={{ADMA}},
+  volume={15389},
+  pages={??--??},
+  year={2024}
+}
+```
